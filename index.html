@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>CJ Byrd Official Author Site</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+         <a href="#home" class="nav__logo">
+            <i class="ri-quill-pen-line"></i>CJ Byrd Official Site
+         </a>
+
+         <div class="nav__menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">
+                     <i class="ri-home-line"></i>
+                     <span>Home</span>
+                  </a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#featured" class="nav__link">
+                     <i class="ri-book-3-line"></i>
+                     <span>Featured</span>
+                  </a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#new" class="nav__link">
+                     <i class="ri-star-line"></i>
+                     <span>New Release</span>
+                  </a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">
+                     <i class="ri-chat-2-line"></i>
+                     <span>About CJ</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+               
+         <div class="nav__actions">
+            <!-- Search button 
+             <i class="ri-search-line search-button" id="search-button"></i> 
+             -->
+ 
+            <!-- Login button
+              <i class="ri-user-line login-button" id="login-button"></i>
+               -->
+
+            <!-- Theme button -->
+              <i class="ri-moon-line change-theme" id="theme-button"></i>
+         </div>
+       </nav>
+   </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="Search by title or tags" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                    CJ Byrd <br>
+                     Official Site
+                  </h1>
+
+                  <p class="home__description">
+                     Welcome to my author page. <br/>
+                     Find something to savor!
+                  </p>
+
+                  <a href="https://www.smashwords.com/profile/view/CJByrd" class="button" target="_blank">Browse All on Smashwords</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                          <img src="assets/img/SFS_Little-Secret.png" alt="Little Secre book cover" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/SFS_Pink-Cheeks.png" alt="Pink Cheek book cover" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/FS_Dirty-Dollys-Grandson.png" alt="Dirty Dolly's Grandson book cover" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/FS_Sinful-Sallys-Nephew.png" alt="Sinful Sally's Nephew book cover" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/STANDALONE_Monster-Lover-from-the-Lake.png" alt="Monster Lover from the Lake book cover" class="home__img">
+                        </article>
+
+                     </div>                     
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== FEATURED ====================-->
+         <section class="featured section" id="featured">
+            <h2 class="section__title">
+               Featured Books
+            </h2>
+
+            <div class="featured__container container">
+               <div class="featured__swiper swiper">
+                  <div class="swiper-wrapper">
+
+                  <article class="featured__card swiper-slide">
+                  
+                     <img src="assets/img/FS_Dirty-Dollys-Grandson.png" alt="Dirty Dolly's Grandson book cover" class="featured__img">
+
+                     <h2 class="featured__title">Dirty Dolly's Grandson</h2>
+                     <div class="featured__prices">
+                        <span class="featured__discount">$0.99</span>
+                        <span class="featured__price">$1.99</span>
+                     </div>
+
+                     <a href="https://www.smashwords.com/books/1694762" target="_blank"><button class="button">Buy on Smashwords</button></a>
+
+                  </article>
+
+<!-- 
+                  <article class="featured__card swiper-slide">
+               
+                     <img src="assets/img/SFS_Little-Secret.png" alt="Little Secret book cover" class="featured__img">
+
+                     <h2 class="featured__title">Little Secret</h2>
+                     <div class="featured__prices">
+                        <span class="featured__discount">$1.49</span>
+                        <span class="featured__price">$2.99</span>
+                     </div>
+
+                    <a href="https://www.smashwords.com/books/1550683" target="_blank"><button class="button">Buy on Smashwords</button></a>
+
+                  </article>
+-->
+
+<!-- 
+                  <article class="featured__card swiper-slide">
+                  
+                     <img src="assets/img/SFS_Pink-Cheeks.png" alt="Pink Cheeks book cover" class="featured__img">
+
+                     <h2 class="featured__title">Pink Cheeks</h2>
+                     <div class="featured__prices">
+                        <span class="featured__discount">$0.99</span>
+                        <span class="featured__price">$1.99</span>
+                     </div>
+
+                    <a href="https://www.smashwords.com/books/1558174" target="_blank"><button class="button">Buy on Smashwords</button></a>
+
+                  </article>
+--> 
+                  <article class="featured__card swiper-slide">
+                 
+                     <img src="assets/img/FS_Sinful-Sallys-Nephew.png" alt="Sinful Sally's Nephew book cover" class="featured__img">
+
+                     <h2 class="featured__title">Sinful Sally's Nephew</h2>
+                     <div class="featured__prices">
+                        <span class="featured__discount">$0.99</span>
+                        <span class="featured__price">$1.99</span>
+                     </div>
+
+                     <a href="https://www.smashwords.com/books/1740020" target="_blank"><button class="button">Buy on Smashwords</button></a>
+
+                  </article>
+
+                  <article class="featured__card swiper-slide">
+                  
+                     <img src="assets/img/SFS_Pattys-Daddy-BoxSet.png" alt="Patty's Daddy Box Set book cover" class="featured__img">
+
+                     <h2 class="featured__title">Patty's Daddy: Box Set</h2>
+                     <div class="featured__prices">
+                        <span class="featured__discount">$3.99</span>
+                        <span class="featured__price">$4.99</span>
+                     </div>
+
+                     <a href="https://www.smashwords.com/books/1761677" target="_blank"><button class="button">Buy on Smashwords</button></a>
+
+                  </article>
+
+                  <article class="featured__card swiper-slide">
+                  
+                     <img src="assets/img/STANDALONE_Monster-Lover-from-the-Lake.png" alt="Monster Lover from the Lake book cover" class="featured__img">
+
+                     <h2 class="featured__title">Monster Lover from the Lake</h2>
+                     <div class="featured__prices">
+                        <span class="featured__discount">$0.99</span>
+                        <span class="featured__price">$1.99</span>
+                     </div>
+
+                     <a href="https://www.smashwords.com/books/1298114" target="_blank"><button class="button">Buy on Smashwords</button></a>
+                  </article>
+
+                  </div>
+
+                   <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                   </div>
+                   <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                   </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== NEW RELEASE ====================-->
+         <section class="new section" id="new">
+            <div class="new__container container grid">
+               <div class="new__data">
+                  <h2 class="new__title section__title">
+                     New Release!
+                  </h2>
+
+                  <h3 class="new__title section__title">Sinful Sally's Nephew</h3>
+                  <br/>
+
+                  <p class="new__description">
+                      Sally catches her 23-year-old nephew Peter spying on her and enjoying some...personal time. 
+                      <br/>
+                      <br/>
+                      Suddenly, she doesn't mind keeping this family deadbeat employed if it means taking advantage of his <i>massive</i> package.
+                  </p>
+
+                  <a href="https://www.smashwords.com/books/view/1740020" class="button">View on Smashwords</a>
+               </div>
+
+               <div class="new__images">
+                  <img src="assets/img/FS_Sinful-Sallys-Nephew.png" alt="" class="new__img-1">
+
+               </div>
+            </div>
+         </section>
+
+          <!--==================== ABOUT CJ ====================-->
+         <section class="about section" id="about">
+            <div class="about__container">
+               <img src="assets/img/about-bg2.jpg" alt="Gradient of blue from dark to light." class="about__bg">
+
+               <div class="about__data container grid">
+                  <h4 class="section__title">
+                     <i class="ri-quill-pen-line" ></i>About CJ Byrd
+                  </h4>
+                  <p class="about__description">
+                     I write reality-bending stories where monsters, magic, and unlikely or taboo scenarios become tantalizing possibilities.
+                     <br/>
+                     I don't plan on reinventing the wheel. I'd just like to enjoy myself and share the resulting adventures while I'm here. 
+                     <br/>
+                     Happy reading! 
+                  </p>
+
+               </div>
+            </div>
+         </section>
+      
+
+         
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer_container container grid">
+            <div>
+               <a href="#home" class="footer__logo">
+                  <i class="ri-quill-pen-line"></i> CJ Byrd Official Site
+               </a>
+
+               <p class="footer__description">
+                  Find something to savor!
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               
+         <div>
+                  <h3 class="footer__title">Links</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="https://www.smashwords.com/profile/view/CJByrd" class="footer__link" target="_blank">Smashwords</a>
+                     </li>
+
+                     <li>
+                        <a href="https://www.goodreads.com/author/show/50094175.C_J_Byrd" class="footer__link" target="_blank">Goodreads</a>
+                     </li>
+                     
+                  </ul>
+
+               </div>
+
+                <div>
+                  <h3 class="footer__title">Contact</h3>
+
+                  <ul class="footer__links">
+                     
+                     <li>
+                        <address class="footer__info">
+                           cbrydwrite222@gmail.com
+                        </address>
+                     </li> 
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
