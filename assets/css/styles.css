@@ -384,6 +384,26 @@ body.dark-theme {
 
 /*=============== FEATURED ===============*/
 
+.sale-banner {
+  margin: 1rem;
+  align-self: center;
+  padding-bottom: 1rem;
+}
+
+.sale-banner p {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: var(--h3-font-size);
+}
+
+.banner-img {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  border: 2px solid var(--border-color);
+}
+
 .featured__card {
   position: relative;
   text-align: center;
